@@ -6,7 +6,7 @@ function Header() {
 			<section>
 
 				<h1>
-					Spotifinder
+					SpotiFinder
 				</h1>
 				
 
