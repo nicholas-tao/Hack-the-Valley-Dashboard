@@ -17,8 +17,8 @@ function Custom() {
 						style={{ background: `black` }}
 					>
 						<div className={customCss.inner}>
+						<h1>Songs in Common</h1>
 							<p>{item.songsInCommon}</p>
-							
 							<button onClick={(e) => {onClick(item.userProfile)}}>Visit Profile</button>
 						</div>
 						<section>
