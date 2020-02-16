@@ -34,10 +34,12 @@
 
 		&.previousButton {
 			left: 20px;
+			fill: #1DB954;
 		}
 
 		&.nextButton {
 			right: 20px;
+			fill: #1DB954;
 		}
 	}
 }
@@ -160,10 +162,10 @@
 	}
 
 	& h1 {
-		font-weight: 900;
+		font-weight: 750;
 		max-width: 840px;
 		color: #FFFFFF;
-		font-size: 64px;
+		font-size: 58px;
 		line-height: 1;
 		transition: all .3s ease;
 		transform: translateY(-20px);

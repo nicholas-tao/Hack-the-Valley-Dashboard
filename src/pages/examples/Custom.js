@@ -4,6 +4,9 @@ import customCss from '../custom.css';
 import content from '../content';
 
 function Custom() {
+	const onClick = (url) => {
+		window.location.href = url;
+	};
 	return (
 		<div>
 			<Slider classNames={customCss}>
@@ -17,10 +20,10 @@ function Custom() {
 							<h1>Songs in Common</h1>
 							<p>{item.songsInCommon}</p>
 							
-							<button onclick="window.location.href = '{item.userProfile}';">View Profile</button>
+							<button onClick={(e) => {onClick(item.userProfile)}}>Visit Profile</button>
 						</div>
 						<section>
-							<img src={item.userProfile} alt={item.user} />
+							<img src={item.userProfilePic} alt={item.user} />
 							<span>
 								<strong1>{item.score}% Match</strong1>
 								<strong>{item.user}</strong>
