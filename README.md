@@ -1,5 +1,7 @@
 # SpotiFinder-Frontend
 
+[Devpost] (https://devpost.com/software/spotifinder)
+
 ## Inspiration
 On this Valentine's Day, we have decided to help people come together through their mutual taste in musical arts. Not only does music suggest a lot about one's personality, it also helps people bond over their similar interests in songs.
 
